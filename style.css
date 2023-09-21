@@ -50,17 +50,37 @@
 }
 
 .photo-grid {
-    width: 900px;
-    height: 900px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-}
-
-.photo-grid-item {
-    border: 1px solid white;
     width: 300px;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+}
+
+.photo-grid-item,
+.photo-grid-item img{
+    width: 100px;
+    height: 100px;
+}
+
+#first-item {
+    order: 2;
+}
+
+#second-item {
+    order: 1
+}
+
+#third-item {
+    order: 4
+}
+
+#fourth-item {
+    order: 3;
+}
+
+#fifth-item {
+    order: 4;
 }

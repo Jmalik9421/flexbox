@@ -51,9 +51,12 @@
 
 .photo-grid {
     width: 900px;
+    height: 900px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .photo-grid-item {

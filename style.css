@@ -60,7 +60,7 @@
     height: 900px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-content: flex-start;
     flex-wrap: wrap;
     flex-direction: row;
 }
@@ -89,4 +89,20 @@
 
 #fifth-item {
     order: 4;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    border: 1px solid blue;
+    background-color: red;
+    height: 200px;
+    flex: 1;
+}
+
+.footer-three {
+    flex: 2;
 }
